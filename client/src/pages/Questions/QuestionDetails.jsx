@@ -93,7 +93,7 @@ function QuestionDetails() {
     }
 
     const handleShare = () => {
-        const url = "http://localhost:3000";
+        const url = "https://stackoverflowbackend-yl9e.onrender.com";
         copy(url + location.pathname);
         alert("Url copied!!\nUse this to share the page.\n" + url + location.pathname);
     }
